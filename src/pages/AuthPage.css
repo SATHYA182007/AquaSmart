@@ -30,7 +30,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 .auth-brand-icon {
   width: 40px; height: 40px;
@@ -62,14 +62,14 @@
   color: rgba(255,255,255,0.82);
   line-height: 1.7;
   max-width: 440px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .auth-benefits {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
 }
 
 .auth-benefit {
@@ -118,7 +118,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
 }
 .auth-card-logo-icon {
   width: 42px; height: 42px;
@@ -141,7 +141,7 @@
   letter-spacing: 0.02em;
 }
 
-.auth-card-header { margin-bottom: 20px; }
+.auth-card-header { margin-bottom: 12px; }
 .auth-card-title {
   font-size: 1.5rem;
   font-weight: 800;
@@ -161,7 +161,7 @@
   border-radius: 10px;
   padding: 3px;
   gap: 3px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 .auth-tab {
   flex: 1;
@@ -185,8 +185,8 @@
 .auth-form {
   display: flex;
   flex-direction: column;
-  gap: 14px;
-  margin-bottom: 16px;
+  gap: 12px;
+  margin-bottom: 14px;
 }
 
 .input-with-icon {
@@ -239,7 +239,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  margin: 16px 0;
+  margin: 12px 0;
   color: var(--gray-400);
   font-size: 0.8rem;
 }

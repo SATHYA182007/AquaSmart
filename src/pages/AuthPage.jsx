@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Eye, EyeOff, Droplets, Leaf, Zap, BarChart3, CheckCircle2, ArrowRight } from 'lucide-react'
+import { Eye, EyeOff, Droplets, Leaf, Zap, BarChart3, CheckCircle2, ArrowRight, ArrowLeft } from 'lucide-react'
 import './AuthPage.css'
 
 const benefits = [
@@ -42,6 +42,16 @@ export default function AuthPage({ onLogin }) {
     <div className="auth-root">
       {/* LEFT – Background video + content */}
       <div className="auth-left">
+        {/* Back Button */}
+        <button 
+          className="auth-back-button"
+          onClick={() => navigate('/')}
+          title="Back to Landing Page"
+        >
+          <ArrowLeft size={18} />
+          <span>Back to Home</span>
+        </button>
+
         {/* Video background */}
         <video
           className="auth-bg-video"
